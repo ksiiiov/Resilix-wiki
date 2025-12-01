@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/Resilix-wiki">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.817909090427">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.817915336447">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
 
     <!-- Primary Meta Tags -->
-    <title>Установка VPN</title>
-    <meta name="title" content="Установка VPN">
-    <meta name="description" content="Опиши пошагово:">
+    <title>Asus + OKVpn</title>
+    <meta name="title" content="Asus + OKVpn">
+    <meta name="description" content="Роутеры Asus(серии RT, TUF, ROG и др.) часто имеют встроенный VPN‑клиент, что позволяет удобно подключить ">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://ksiiiov.github.io/Resilix-wiki/router/asus/">
@@ -20,22 +20,22 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ksiiiov.github.io/Resilix-wiki/router/asus/">
-    <meta property="og:title" content="Установка VPN">
-    <meta property="og:description" content="Опиши пошагово:">
+    <meta property="og:title" content="Asus + OKVpn">
+    <meta property="og:description" content="Роутеры Asus(серии RT, TUF, ROG и др.) часто имеют встроенный VPN‑клиент, что позволяет удобно подключить ">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://ksiiiov.github.io/Resilix-wiki/router/asus/">
-    <meta property="twitter:title" content="Установка VPN">
-    <meta property="twitter:description" content="Опиши пошагово:">
+    <meta property="twitter:title" content="Asus + OKVpn">
+    <meta property="twitter:description" content="Роутеры Asus(серии RT, TUF, ROG и др.) часто имеют встроенный VPN‑клиент, что позволяет удобно подключить ">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.817909090427" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.817915336447" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.817909090427" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.817915336447" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.817909090427" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.817915336447" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -170,19 +170,88 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="retype-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="установка-vpn" class="break-words">
+<doc-anchor-target id="asus--okvpn" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#установка-vpn">#</doc-anchor-trigger>
-        <span>Установка VPN</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#asus--okvpn">#</doc-anchor-trigger>
+        <span>Asus + OKVpn</span>
     </h1>
 </doc-anchor-target>
-<p>Опиши пошагово:</p>
+<p>Роутеры <strong>Asus</strong> (серии RT, TUF, ROG и др.) часто имеют встроенный VPN‑клиент, что позволяет удобно подключить <strong>OKVpn</strong> на весь дом.</p>
+<hr>
+<doc-anchor-target id="подготовка">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#подготовка">#</doc-anchor-trigger>
+        <span>Подготовка</span>
+    </h2>
+</doc-anchor-target>
 <ol>
-<li>Где скачать приложение.</li>
-<li>Как установить на нужные платформы (Windows/macOS/Android/iOS).</li>
-<li>Как ввести логин/ключ.</li>
-<li>Как проверить, что всё подключилось (что IP изменился и т.п.).</li>
+<li>Зайдите в веб‑панель роутера (обычно <code v-pre>192.168.1.1</code>).</li>
+<li>Обновите прошивку до актуальной версии (если давно не обновляли).</li>
+<li>В личном кабинете OKVpn получите:
+<ul>
+<li>тип VPN (например, OpenVPN);</li>
+<li>адрес сервера;</li>
+<li>логин/пароль или файл конфигурации.</li>
+</ul>
+</li>
 </ol>
+<hr>
+<doc-anchor-target id="общая-схема-для-openvpnклиента">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#общая-схема-для-openvpnклиента">#</doc-anchor-trigger>
+        <span>Общая схема для OpenVPN‑клиента</span>
+    </h2>
+</doc-anchor-target>
+<ol>
+<li>В панели Asus откройте раздел <strong>VPN</strong> → <strong>VPN Client</strong>.</li>
+<li>Нажмите <strong>Add profile / Добавить профиль</strong>.</li>
+<li>Выберите тип <strong>OpenVPN</strong> (если он рекомендован OKVpn).</li>
+<li>Заполните поля:
+<ul>
+<li>описание (любое, например «OKVpn»);</li>
+<li>имя пользователя/пароль — если они указаны в личном кабинете;</li>
+<li>импортируйте <code v-pre>.ovpn</code>‑файл, если он выдан OKVpn.</li>
+</ul>
+</li>
+<li>Сохраните профиль и нажмите <strong>Activate / Активировать</strong>.</li>
+</ol>
+<p>После успешного подключения статус изменится на «Connected».</p>
+<hr>
+<doc-anchor-target id="маршрутизация-и-выбор-устройств">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#маршрутизация-и-выбор-устройств">#</doc-anchor-trigger>
+        <span>Маршрутизация и выбор устройств</span>
+    </h2>
+</doc-anchor-target>
+<p>В ряде прошивок Asus можно:</p>
+<ul>
+<li>пустить весь трафик через VPN;</li>
+<li>либо включить <strong>Policy routing / Правила маршрутизации</strong>, чтобы только отдельные устройства ходили через OKVpn (например, ТВ‑приставка или консоль).</li>
+</ul>
+<p>Подробные примеры таких схем обычно есть в инструкциях OKVpn на <a href="https://okvpn.wiki/"><code v-pre>https://okvpn.wiki/</code></a>.</p>
+<hr>
+<doc-anchor-target id="если-vpn-не-поднимается">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#если-vpn-не-поднимается">#</doc-anchor-trigger>
+        <span>Если VPN не поднимается</span>
+    </h2>
+</doc-anchor-target>
+<ol>
+<li>Проверьте лог OpenVPN в панели роутера — там будет причина (ошибка авторизации, DNS, сертификат и т.п.).</li>
+<li>Перепроверьте, что вы импортировали именно актуальный файл <code v-pre>.ovpn</code> из личного кабинета OKVpn.</li>
+<li>Убедитесь, что время и дата на роутере выставлены правильно.</li>
+<li>Попробуйте другой сервер/локацию в OKVpn.</li>
+</ol>
+<p>Если всё равно не получается — сделайте скриншоты:</p>
+<ul>
+<li>настроек VPN‑клиента;</li>
+<li>лога ошибок;</li>
+</ul>
+<p>и отправьте их в поддержку <strong>@okvpn_support_bot</strong> с указанием модели роутера и версии прошивки.</p>
+<hr>
+<p><a href="../" class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-none bg-button-primary hover:bg-button-primary-hover text-button-primary-text px-4 h-10 text-sm rounded-md">
+    <span><span class="docs-emoji">&#x2B05;&#xFE0F;</span> Назад к выбору роутера</span>
+</a></p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -192,20 +261,20 @@
                             
                                 <nav id="retype-nextprev" class="print:hidden flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../router/tp-link/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../router/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-base-text-muted">Previous</span>
-                                                <span class="block mt-1">Установка VPN</span>
+                                                <span class="block mt-1">VPN для роутера</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../router/xiaomi/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../router/huawei/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
-                                                <span class="block mt-1">Установка VPN</span>
+                                                <span class="block mt-1">Huawei</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -249,6 +318,6 @@
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Установка VPN", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Asus", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>

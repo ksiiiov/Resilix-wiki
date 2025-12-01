@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/Resilix-wiki">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.817909090427">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.817915336447">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
 
     <!-- Primary Meta Tags -->
-    <title>Я ничего не понимаю, ничего не работает</title>
-    <meta name="title" content="Я ничего не понимаю, ничего не работает">
-    <meta name="description" content="Сделай список типичных проблем:">
+    <title>&#129302; Установка VPN ShadowSocks на Android</title>
+    <meta name="title" content="🤖 Установка VPN ShadowSocks на Android">
+    <meta name="description" content="Здесь показано, как подключить OKVpn на Android через протокол ShadowSocks.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://ksiiiov.github.io/Resilix-wiki/shadowsocks/android/">
@@ -20,22 +20,22 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ksiiiov.github.io/Resilix-wiki/shadowsocks/android/">
-    <meta property="og:title" content="Я ничего не понимаю, ничего не работает">
-    <meta property="og:description" content="Сделай список типичных проблем:">
+    <meta property="og:title" content="🤖 Установка VPN ShadowSocks на Android">
+    <meta property="og:description" content="Здесь показано, как подключить OKVpn на Android через протокол ShadowSocks.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://ksiiiov.github.io/Resilix-wiki/shadowsocks/android/">
-    <meta property="twitter:title" content="Я ничего не понимаю, ничего не работает">
-    <meta property="twitter:description" content="Сделай список типичных проблем:">
+    <meta property="twitter:title" content="🤖 Установка VPN ShadowSocks на Android">
+    <meta property="twitter:description" content="Здесь показано, как подключить OKVpn на Android через протокол ShadowSocks.">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.817909090427" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.817915336447" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.817909090427" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.817915336447" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.817909090427" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.817915336447" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -170,26 +170,96 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="retype-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="я-ничего-не-понимаю-ничего-не-работает" class="break-words">
+<doc-anchor-target id="-установка-vpn-shadowsocks-на-android" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#я-ничего-не-понимаю-ничего-не-работает">#</doc-anchor-trigger>
-        <span>Я ничего не понимаю, ничего не работает</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-установка-vpn-shadowsocks-на-android">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F916;</span> Установка VPN ShadowSocks на Android</span>
     </h1>
 </doc-anchor-target>
-<p>Сделай список типичных проблем:</p>
-<ul>
-<li>Не подключается / постоянное «подключение…»</li>
-<li>Интернет пропадает после включения VPN</li>
-<li>Не открываются какие-то сайты</li>
-<li>Приложение не запускается</li>
-<li>Ошибки оплаты / продления и т.п.</li>
-</ul>
-<p>Для каждой проблемы:</p>
+<p>Здесь показано, как подключить <strong>OKVpn</strong> на Android через протокол <strong>ShadowSocks</strong>.</p>
+<hr>
+<doc-anchor-target id="1-получить-ключ-shadowsocks-в-okvpn">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#1-получить-ключ-shadowsocks-в-okvpn">#</doc-anchor-trigger>
+        <span>1. Получить ключ ShadowSocks в OKVpn</span>
+    </h2>
+</doc-anchor-target>
+<p>После активации подписки:</p>
 <ol>
-<li>Кратко – в чём симптом.</li>
-<li>Пошагово – что попробовать (перезапуск, смена сервера, другое устройство и т.д.).</li>
-<li>Когда уже точно писать в поддержку и что приложить (скрины, логи).</li>
+<li>Зайдите в личный кабинет или бота OKVpn.</li>
+<li>Перейдите в раздел <strong>ShadowSocks / Ключ доступа</strong>.</li>
+<li>Скопируйте строку вида <code v-pre>ss://...</code> или откройте QR‑код для Android.</li>
 </ol>
+<p>Эта строка — ваш ключ ShadowSocks, который нужно добавить в приложение‑клиент.</p>
+<hr>
+<doc-anchor-target id="2-установить-клиент-shadowsocks">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#2-установить-клиент-shadowsocks">#</doc-anchor-trigger>
+        <span>2. Установить клиент ShadowSocks</span>
+    </h2>
+</doc-anchor-target>
+<p>На Android удобно использовать официальные или рекомендованные клиенты ShadowSocks (их перечень обычно есть на <a href="https://okvpn.wiki/"><code v-pre>https://okvpn.wiki/</code></a>).</p>
+<p>Общий порядок:</p>
+<ol>
+<li>Откройте <strong>Google Play</strong> (или другой магазин).</li>
+<li>Найдите рекомендованный клиент ShadowSocks.</li>
+<li>Установите приложение.</li>
+</ol>
+<hr>
+<doc-anchor-target id="3-импортировать-ключ">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#3-импортировать-ключ">#</doc-anchor-trigger>
+        <span>3. Импортировать ключ</span>
+    </h2>
+</doc-anchor-target>
+<ol>
+<li>Откройте приложение ShadowSocks.</li>
+<li>Нажмите кнопку <strong><code v-pre>+</code></strong> или пункт <strong>Import / Импорт</strong>.</li>
+<li>Выберите:
+<ul>
+<li><strong>Scan QR code</strong>, если у вас открыт QR‑код из OKVpn;</li>
+<li>или <strong>Import from clipboard</strong>, если вы скопировали строку <code v-pre>ss://...</code>.</li>
+</ul>
+</li>
+<li>Сохраните профиль.</li>
+</ol>
+<p>В списке появится сервер OKVpn ShadowSocks.</p>
+<hr>
+<doc-anchor-target id="4-подключить-vpn">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#4-подключить-vpn">#</doc-anchor-trigger>
+        <span>4. Подключить VPN</span>
+    </h2>
+</doc-anchor-target>
+<ol>
+<li>Выберите профиль OKVpn ShadowSocks.</li>
+<li>Нажмите кнопку <strong>Connect / Подключить</strong>.</li>
+<li>Подтвердите запрос на создание VPN‑подключения, если Android спросит.</li>
+</ol>
+<p>После включения:</p>
+<ul>
+<li>в статус‑баре появится значок ключика или VPN;</li>
+<li>трафик пойдёт через сервера OKVpn.</li>
+</ul>
+<hr>
+<doc-anchor-target id="5-если-не-работает">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#5-если-не-работает">#</doc-anchor-trigger>
+        <span>5. Если не работает</span>
+    </h2>
+</doc-anchor-target>
+<p>Попробуйте:</p>
+<ol>
+<li>Отключить и снова включить VPN в приложении.</li>
+<li>Перезапустить телефон.</li>
+<li>Выбрать другой сервер/страну в настройках OKVpn (сгенерировать новый ключ <code v-pre>ss://...</code>).</li>
+<li>Отключить другие VPN/прокси‑клиенты.</li>
+</ol>
+<p>Если ничего не помогло — напишите в поддержку <strong>@okvpn_support_bot</strong>, опишите модель телефона, версию Android и приложите скриншоты из приложения ShadowSocks.</p>
+<hr>
+<p><a href="../" class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-none bg-button-primary hover:bg-button-primary-hover text-button-primary-text px-4 h-10 text-sm rounded-md">
+    <span><span class="docs-emoji">&#x2B05;&#xFE0F;</span> Назад к ShadowSocks</span>
+</a></p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -199,20 +269,20 @@
                             
                                 <nav id="retype-nextprev" class="print:hidden flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../shadowsocks/ios/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../shadowsocks/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-base-text-muted">Previous</span>
-                                                <span class="block mt-1">Установка на i​Phone</span>
+                                                <span class="block mt-1">VPN Shadow​Socks</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../router/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../shadowsocks/ios/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
-                                                <span class="block mt-1">VPN для роутера</span>
+                                                <span class="block mt-1">Установка на i​Phone</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -256,6 +326,6 @@
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Я ничего не понимаю, ничего не работает", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Установка на Android", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
