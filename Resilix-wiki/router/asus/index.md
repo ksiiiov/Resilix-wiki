@@ -1,5 +1,5 @@
 ---
-label: Asus
+label: 🏯 Asus
 ---
 
 # Asus + OKVpn

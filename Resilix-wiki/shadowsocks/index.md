@@ -1,5 +1,5 @@
 ---
-label: VPN ShadowSocks
+label: ☁️ VPN ShadowSocks
 ---
 
 # ☁️ Установка VPN ShadowSocks

@@ -1,5 +1,5 @@
 ---
-label: TP-Link
+label: 🔷 TP-Link
 ---
 
 # TP-Link + OKVpn

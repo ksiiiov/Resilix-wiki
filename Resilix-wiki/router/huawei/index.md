@@ -1,5 +1,5 @@
 ---
-label: Huawei
+label: 🌸 Huawei
 ---
 
 # Huawei + OKVpn

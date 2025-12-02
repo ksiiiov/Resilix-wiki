@@ -1,5 +1,5 @@
 ---
-label: Установка на Windows
+label: 🖥️ Установка на Windows
 ---
 
 # 🖥️ Установка VPN ShadowSocks на Windows
