@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ksiiiov.github.io/Resilix-wiki/sitemap.xml.gz
+Sitemap: https://docs.example.com/sitemap.xml.gz
