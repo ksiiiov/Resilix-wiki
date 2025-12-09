@@ -1,0 +1,216 @@
+{
+  "version": "3.11.0",
+  "created": "2025-12-09T18:33:33Z",
+  "files": [
+    {
+      "path": ".nojekyll"
+    },
+    {
+      "path": "404.html"
+    },
+    {
+      "path": "faq/auto-renew/index.html"
+    },
+    {
+      "path": "faq/index.html"
+    },
+    {
+      "path": "faq/ip-address/index.html"
+    },
+    {
+      "path": "faq/protocol/index.html"
+    },
+    {
+      "path": "faq/router/index.html"
+    },
+    {
+      "path": "faq/update-key/index.html"
+    },
+    {
+      "path": "faq/work-vpn/index.html"
+    },
+    {
+      "path": "help/index.html"
+    },
+    {
+      "path": "index.html"
+    },
+    {
+      "path": "resources/css/retype.css"
+    },
+    {
+      "path": "resources/fonts/Inter-italic-latin-var.woff2"
+    },
+    {
+      "path": "resources/fonts/Inter-roman-latin-var.woff2"
+    },
+    {
+      "path": "resources/js/config.js"
+    },
+    {
+      "path": "resources/js/lunr.js"
+    },
+    {
+      "path": "resources/js/retype.js"
+    },
+    {
+      "path": "resources/js/search.json"
+    },
+    {
+      "path": "resources/lunr.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/mermaid.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/prism.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/retype.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/retype.LICENSE.txt"
+    },
+    {
+      "path": "robots.txt"
+    },
+    {
+      "path": "router/cudy/index.html"
+    },
+    {
+      "path": "router/index.html"
+    },
+    {
+      "path": "router/keenetic/index.html"
+    },
+    {
+      "path": "router/tenda-tx2lpro-tx12lpro/index.html"
+    },
+    {
+      "path": "screens/влесс/1.png"
+    },
+    {
+      "path": "screens/влесс/2.png"
+    },
+    {
+      "path": "screens/влесс/3.png"
+    },
+    {
+      "path": "screens/влесс/4.png"
+    },
+    {
+      "path": "screens/кинетик/1.jpg"
+    },
+    {
+      "path": "screens/кинетик/10.jpg"
+    },
+    {
+      "path": "screens/кинетик/11.jpg"
+    },
+    {
+      "path": "screens/кинетик/12.jpg"
+    },
+    {
+      "path": "screens/кинетик/2.jpg"
+    },
+    {
+      "path": "screens/кинетик/3.jpg"
+    },
+    {
+      "path": "screens/кинетик/4.jpg"
+    },
+    {
+      "path": "screens/кинетик/5.jpg"
+    },
+    {
+      "path": "screens/кинетик/6.jpg"
+    },
+    {
+      "path": "screens/кинетик/7.jpg"
+    },
+    {
+      "path": "screens/кинетик/8.jpg"
+    },
+    {
+      "path": "screens/кинетик/9.jpg"
+    },
+    {
+      "path": "screens/куди/1.jpg"
+    },
+    {
+      "path": "screens/куди/2.jpg"
+    },
+    {
+      "path": "screens/куди/3.jpg"
+    },
+    {
+      "path": "screens/тенда/docx_tmp/word/media/image1.png"
+    },
+    {
+      "path": "screens/тенда/docx_tmp/word/media/image2.png"
+    },
+    {
+      "path": "screens/тенда/docx_tmp/word/media/image3.png"
+    },
+    {
+      "path": "screens/тенда/docx_tmp/word/media/image4.png"
+    },
+    {
+      "path": "screens/тенда/docx_tmp/word/media/image5.png"
+    },
+    {
+      "path": "screens/тенда/docx_tmp/word/media/image6.png"
+    },
+    {
+      "path": "screens/тенда/docx_tmp/word/media/image7.png"
+    },
+    {
+      "path": "screens/тенда/docx_tmp/word/media/image8.png"
+    },
+    {
+      "path": "screens/тенда/us_tx2lprov1.0re_v16.03.51.11_vpn02_multi_tde01.bin"
+    },
+    {
+      "path": "shadowsocks/android/index.html"
+    },
+    {
+      "path": "shadowsocks/index.html"
+    },
+    {
+      "path": "shadowsocks/ios/index.html"
+    },
+    {
+      "path": "shadowsocks/linux/index.html"
+    },
+    {
+      "path": "shadowsocks/macos/index.html"
+    },
+    {
+      "path": "shadowsocks/windows/index.html"
+    },
+    {
+      "path": "sitemap.xml.gz"
+    },
+    {
+      "path": "styles.css"
+    },
+    {
+      "path": "vless/android/index.html"
+    },
+    {
+      "path": "vless/index.html"
+    },
+    {
+      "path": "vless/ios/index.html"
+    },
+    {
+      "path": "vless/linux/index.html"
+    },
+    {
+      "path": "vless/macos/index.html"
+    },
+    {
+      "path": "vless/windows/index.html"
+    }
+  ]
+}
