@@ -1,0 +1,29 @@
+input: .
+output: .retype
+
+url: ksiiiov.github.io/Resilix-wiki/
+
+branding:
+  title: База знаний Resilix
+  label: wiki
+
+css:
+  - styles.css
+
+links:
+  - text: На главную
+    link: /
+  - text: Помощь
+    link: help/
+
+navigation:
+  - index.md
+  - help.md
+  - shadowsocks/
+  - vless/
+  - trojan/
+  - router/
+  - faq/
+
+footer:
+  copyright: "© {{ year }} Resilix. All rights reserved."
